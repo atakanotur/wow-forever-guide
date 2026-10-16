@@ -1,0 +1,73 @@
+# yaml-language-server: $schema=https://api.gitbook.com/gitbook-docs.yaml
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+site:
+  title: "WoW: Forever - 3 Kişilik Başlangıç Rehberi"
+  structure:
+    - type: section
+      key: section-baslangic-ve-hazirlik
+      title: "Başlangıç ve Hazırlık"
+      path: baslangic-ve-hazirlik
+      default: true
+      children:
+        - type: space
+          key: space-giris
+          title: "Hoş Geldiniz & Altın Kurallar"
+          path: giris
+          default: true
+          content:
+            directory: ./giris
+        - type: space
+          key: space-modul-1-sozluk
+          title: "Modül 1: MMO ve WoW Sözlüğü (Temel Kavramlar ve Savaş Mekaniği)"
+          path: modul-1-sozluk
+          content:
+            directory: ./modul-1-sozluk
+        - type: space
+          key: space-modul-2-grup-kurulumu
+          title: "Modül 2: 3 Kişilik Grup Kurulumu (Taraf, Irk ve Sınıf Seçimi)"
+          path: modul-2-grup-kurulumu
+          content:
+            directory: ./modul-2-grup-kurulumu
+    - type: section
+      key: section-oyun-mekanigi-ve-hayatta-kalma
+      title: "Oyun Mekaniği ve Hayatta Kalma"
+      path: oyun-mekanigi-ve-hayatta-kalma
+      children:
+        - type: space
+          key: space-modul-3-dunya-ve-arayuz
+          title: "Modül 3: Dünya, Arayüz ve Hayatta Kalma (İlk 1-20 Seviye)"
+          path: modul-3-dunya-ve-arayuz
+          default: true
+          content:
+            directory: ./modul-3-dunya-ve-arayuz
+        - type: space
+          key: space-modul-4-esya-ve-ekipman
+          title: "Modül 4: Eşya (Item), Ekipman ve Ganimet Sistemi"
+          path: modul-4-esya-ve-ekipman
+          content:
+            directory: ./modul-4-esya-ve-ekipman
+        - type: space
+          key: space-modul-5-ekonomi-ve-meslekler
+          title: "Modül 5: Ekonomi, Çanta Yönetimi ve Meslekler (3 Kişilik İş Bölümü)"
+          path: modul-5-ekonomi-ve-meslekler
+          content:
+            directory: ./modul-5-ekonomi-ve-meslekler
+    - type: section
+      key: section-grup-icerikleri-ve-ipuclari
+      title: "Grup İçerikleri ve İpuçları"
+      path: grup-icerikleri-ve-ipuclari
+      children:
+        - type: space
+          key: space-modul-6-zindanlar
+          title: "Modül 6: Zindanlar (Dungeons) ve Grup Taktikleri"
+          path: modul-6-zindanlar
+          default: true
+          content:
+            directory: ./modul-6-zindanlar
+        - type: space
+          key: space-modul-7-ipuclari-ve-kisayollar
+          title: "Modül 7: Yaşam Kalitesi (QoL), Kısayollar ve Çaylak Hataları"
+          path: modul-7-ipuclari-ve-kisayollar
+          content:
+            directory: ./modul-7-ipuclari-ve-kisayollar
